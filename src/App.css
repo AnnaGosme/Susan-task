@@ -25,33 +25,39 @@ h1 {
   color: #F15B4A;
   font-family: "Hind Siliguri", sans-serif;
   align-self: center;
+  font-size: 2.5rem;
 }
 
 h2 {
   color: #5A261B;
   font-family: 'Poppins', sans-serif;
+
 }
 
-.side {
-  display: flex;
-  flex-direction: row;
-}
 
 .img {
   background-color: azure;
   height:30vh;
   width: auto;
-  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .AddCard {
-  
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+
   align-self: center;
   
-  height: 200px;
-  width: 250px;
-  border-radius: 15%;
+  height: 50px;
+  width: 500px;
+  border-radius: 2rem;
   border-color: #C7D3BF;
   
   color: #5A261B;
@@ -61,10 +67,10 @@ h2 {
 .ToDoList {
 align-self: center;
 }
+
 input {
   align-self: flex-start;
-  color: #5A261B;
-  
+  color: #5A261B; 
 }
 
 
@@ -77,8 +83,16 @@ input {
   margin: 10px;
   align-content: center;
   justify-content: center;
-  border-radius: 25%;
-
+  border-radius: 2rem;
+  cursor: grab;
+  
+}
+.add:hover {
+  background-color: #eedf5b;
+  box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
+  color: white;
+  transform: translateY(-7px);
+  cursor:grabbing;
 }
 
 .clear {
@@ -90,10 +104,18 @@ input {
   margin: 10px;
   align-content: center;
   justify-content: center;
-  border-radius: 25%;
+  border-radius: 2rem;
+  cursor: grabbing;
+}
+
+.clear:hover {
+	background-color: #eedf5b;
+	box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
+	transform: translateY(-7px);
 }
 
 .counter {
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
+  align-self: center;
 }

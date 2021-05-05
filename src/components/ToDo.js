@@ -8,12 +8,12 @@ export default function ToDo({ todo, toggleTodo }) {
 
   return (
     <div className="ToDoWrapper">
-    
+    <div className="todo-card">
       
         <input type="checkbox" checked={todo.complete} onChange={handleTodoClick}/>
       
       
-      <div>{todo.name}</div>
+      {todo.name}</div>
       
       </div>
     
