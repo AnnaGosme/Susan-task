@@ -1,3 +1,15 @@
+# Susan Task
+
+## --> Reduce ruminating thoughts and keep track of tasks and errands by taking notes. <--
+![](https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80)
+---
+
+This is a practice project using React to apply passing props from parent to child components. 
+
+**Future implementation** will include replacing props with context and creating a database to reference accomplished tasks. 
+
+Built following the awesome tutorial by Kyle from Web Dev Simplified [Link]https://www.youtube.com/watch?v=hQAHSlTtcmY
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
